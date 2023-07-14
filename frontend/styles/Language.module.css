@@ -1,0 +1,309 @@
+.main {
+  padding: 3rem 5rem 4rem;
+  font-family: Montserrat, sans-serif;
+  background-color: #fefae0;
+}
+
+.language_name {
+  display: flex;
+  align-items: center;
+}
+
+.language_name h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding-left: 3rem;
+}
+
+.language_name svg {
+  font-size: 3rem;
+}
+
+.language_name svg:hover {
+  cursor: pointer;
+}
+
+/* About */
+.container {
+  border-radius: 25px;
+  margin: 2rem auto;
+  padding: 2.75rem 2.5rem;
+  position: relative;
+  width: 85%;
+}
+
+.container h3 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  position: relative;
+}
+
+.container > svg {
+  position: absolute;
+}
+
+.about {
+  background-color: #d8e3b3;
+}
+
+.first {
+  top: 0;
+  left: 0;
+  border-top-left-radius: 25px;
+}
+
+.about .second {
+  top: 0;
+  right: 10rem;
+}
+
+.about .third {
+  bottom: 0;
+  left: 20rem;
+}
+
+.top {
+  display: flex;
+  margin: 1rem 0 2rem;
+  position: relative;
+}
+
+.top img {
+  padding-right: 3rem;
+  position: relative;
+  max-width: 35%;
+  /* max-height: 35%; */
+  height: auto;
+}
+
+.top span {
+  font-weight: 700;
+}
+
+.top p {
+  padding-bottom: 1rem;
+  line-height: 1.75rem;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.stats {
+  color: #606c38;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.location {
+  display: flex;
+  color: #606c38;
+  font-size: 1.25rem;
+  align-items: center;
+  line-height: 2rem;
+}
+
+.location div {
+  padding: 0 1.5rem 0 1rem;
+}
+
+.location a {
+  color: #606c38;
+  text-decoration: underline;
+}
+
+/* Recordings */
+.recordings {
+  background-color: #ffe9d1;
+}
+
+.recordings .second {
+  bottom: 0;
+  right: 0;
+}
+
+.recordings_top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.recordings_top button {
+  background-color: #bc6c25;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+.recordings_top button:hover {
+  cursor: pointer;
+}
+
+.recordings_top i {
+  padding-left: 0.5rem;
+}
+
+.recordings h4 {
+  color: #bc6c25;
+  font-size: 1.75rem;
+  font-weight: 600;
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+}
+
+.subjects {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subject_1,
+.subject_2 {
+  padding-top: 1rem;
+  width: 47.5%;
+}
+
+.recording {
+  margin-bottom: 0.75rem;
+  border: 1px solid black;
+  padding: 1rem 1rem 0.5rem;
+  border-radius: 15px;
+  background-color: white;
+  position: relative;
+}
+
+.recording div {
+  display: flex;
+  padding-bottom: 0.5rem;
+  box-shadow: none;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.subject {
+  margin-bottom: 1rem;
+}
+
+.recording div div div:last-child {
+  flex: 0.5 10 auto;
+}
+
+.recording button {
+  color: black;
+}
+
+.recording div div div:first-child div div div:first-child {
+  background-color: white;
+  border: 4px solid black;
+}
+
+.recording div div div:first-child div div div:last-child {
+  /* background-color: black; */
+}
+
+.recording h6 {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.recording p {
+  color: #606c38;
+}
+
+/* Communities */
+.communities {
+  background-color: #f4ebad;
+}
+
+.communities_list {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.communities_list div {
+  text-align: center;
+  padding: 0 2rem;
+}
+
+.communities i {
+  font-size: 7rem;
+}
+
+.communities h6 {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  font-weight: 500;
+}
+
+.edit_container {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+}
+
+.edit {
+  padding: 0.5rem 1rem;
+  background-color: #606c38;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 20px;
+  width: 15%;
+}
+
+@media (min-width: 1800px) {
+  .language_name {
+    width: 1500px;
+    margin: 0 auto;
+  }
+  .language_name h1 {
+    font-size: 2.8rem;
+  }
+  .container {
+    width: 1300px;
+  }
+  .container h3 {
+    font-size: 2.3rem;
+  }
+  .top p {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+  .stats {
+    font-size: 1.8rem;
+  }
+  .location {
+    font-size: 1.6rem;
+    align-items: center;
+    line-height: 2.5rem;
+  }
+  .recordings_top button {
+    font-size: 1.5rem;
+  }
+  .recordings h4 {
+    font-size: 2rem;
+  }
+  .recordings h6 {
+    font-size: 1.5rem;
+  }
+  .recording div {
+    font-size: 1.3rem;
+  }
+  .subject {
+    font-size: 1.3rem;
+  }
+  .edit_container {
+    width: 1300px;
+    margin: 0 auto;
+  }
+  .edit {
+    font-size: 1.5rem;
+  }
+}

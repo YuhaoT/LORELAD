@@ -1,0 +1,353 @@
+.main {
+  padding: 3rem 0 0;
+  font-family: Montserrat, sans-serif;
+  background-color: #fefae0;
+  min-height: 100vh;
+}
+
+.container {
+  box-shadow: 0 -3px 3px #aaa;
+  width: 80%;
+  margin: 0 auto;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding-bottom: 4rem;
+}
+
+.about_us,
+.what_we_do {
+  color: #283618;
+  position: relative;
+}
+
+.about_us svg,
+.what_we_do svg {
+  position: absolute;
+}
+
+.content_wrapper {
+  text-align: center;
+  width: 54%;
+  padding: 7% 0 0;
+  margin: 0 auto;
+}
+
+.content_wrapper h1 {
+  font-size: 2.5rem;
+  font-family: Montserrat;
+  font-weight: 600;
+  color: #283618;
+  padding-bottom: 1rem;
+}
+
+.content_wrapper h2 {
+  font-size: 2rem;
+  font-family: Montserrat;
+  font-weight: 500;
+  color: #283618;
+  padding-bottom: 1rem;
+}
+
+.content_wrapper p {
+  text-align: justify;
+  font-size: 1.25rem;
+  font-family: Hind;
+  line-height: 2rem;
+  font-weight: 400;
+  color: #283618;
+  position: relative;
+  padding-bottom: 10px;
+}
+.content_wrapper .intro{
+  text-align: center;
+}
+
+.content_wrapper b{
+  font-weight: bold;
+}
+
+
+.content_wrapper h1 + p {
+  font-weight: 700;
+}
+
+.stats {
+  padding: 1.8rem 0 2.5rem;
+}
+
+.stats p {
+  font-size: 2rem;
+  font-family: Montserrat;
+  line-height: 2.5rem;
+  position: relative;
+}
+
+.stats p span {
+  font-weight: 700;
+}
+
+.blurb {
+  padding-bottom: 2rem;
+  width: 75%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.globe {
+  top: 8rem;
+  left: 6.5em;
+}
+
+.translate {
+  top: 9rem;
+  right: 5em;
+}
+/* .team {
+  align-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.avatar {
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+.avatar1 {
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+.name {
+  padding: 1% 1% 1% 1%;
+  height: 15px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2px;
+  text-align: center;
+  text-transform: capitalize;
+  justify-content: center;
+  color: #000000;
+  width: 30%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.pics {
+  width: 30%;
+  justify-content: center;
+  max-height: 150px;
+  height: auto;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.title {
+  height: 15px;
+  padding: 1% 1% 1% 1%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 2px;
+  text-align: center;
+  text-transform: capitalize;
+  text-overflow: ellipsis;
+  width: 30%;
+} */
+/*
+.profile_img2{
+    margin-left: 547px;
+    margin-right: 548px;
+    height: 114px;
+    width: 145px;
+    left: calc(50% - 145px/2 + 15.5px);
+    top: 974px;
+
+    /* left: calc(50% - 145px/2 + 15.5px);
+} */
+
+/* Clear floats after image containers */
+
+/* New Styling */
+/* The Team */
+.team .content_wrapper {
+  width: 80%;
+}
+
+.row {
+  display: flex;
+}
+
+.top {
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+
+.bottom {
+  justify-content: space-around;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 33.3%;
+}
+
+.avatar {
+  height: 200px;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 1.5rem 0 0.6rem;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.md_sm {
+  display: none;
+}
+
+@media (min-width: 1800px) {
+  .container {
+    width: 1500px;
+  }
+  .content_wrapper h1 {
+    font-size: 2.8rem;
+  }
+  .content_wrapper p {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+  }
+  .team .content_wrapper {
+    width: 100%;
+  }
+  .avatar {
+    height: 250px;
+  }
+  .name {
+    font-size: 1.8rem;
+  }
+  .title {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 1441px) {
+  .team .content_wrapper {
+    width: 1200px;
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1100px) {
+  .content_wrapper {
+    width: 65%;
+  }
+  .stats p {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+  }
+  .globe {
+    left: 4em;
+  }
+  .translate {
+    right: 2.5em;
+  }
+}
+@media (max-width: 950px) {
+  .content_wrapper h1 {
+    padding-bottom: 1.5rem;
+  }
+  .stats {
+    padding: 1.3rem 0 2rem;
+  }
+  .blurb {
+    padding-bottom: 1rem;
+  }
+  .globe {
+    left: 2.5em;
+  }
+  .translate {
+    right: 1.5em;
+  }
+  .team .content_wrapper {
+    width: 85%;
+  }
+}
+@media (max-width: 768px) {
+  .content_wrapper {
+    width: 80%;
+  }
+  .content_wrapper h1 {
+    font-size: 2.1rem;
+  }
+  .content_wrapper p {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+  }
+  .stats p {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+  .about_us svg,
+  .what_we_do svg {
+    position: initial;
+    padding-top: 3rem;
+  }
+  .about_us,
+  .what_we_do {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .team .content_wrapper {
+    width: 95%;
+  }
+  .md_sm {
+    display: initial;
+  }
+  .top {
+    justify-content: space-around;
+    margin: 2rem 0;
+  }
+  .middle {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .content_wrapper {
+    padding: 4rem 0 0;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .top {
+    margin: 2rem 0 0 0;
+  }
+  .member {
+    margin-bottom: 2rem;
+  }
+  .avatar {
+    height: 150px;
+  }
+}

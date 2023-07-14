@@ -1,0 +1,120 @@
+.main {
+  padding: 3rem 0 4rem;
+  font-family: Montserrat, sans-serif;
+  background-color: #fefae0;
+  min-height: 100vh;
+}
+
+.main h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+  color: #283618;
+}
+
+.main form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.main label {
+  align-self: flex-start;
+}
+
+.main input {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0 1.5rem;
+  border-radius: 20px;
+  border: 1px solid #8dbf42;
+  width: 100%;
+}
+
+.main input:focus {
+  outline: none;
+}
+
+.main input[type="file"] {
+  padding: 0;
+  border-radius: initial;
+  border: none;
+  width: 100%;
+}
+
+.main select {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0 1.5rem;
+  border-radius: 20px;
+  border: 1px solid #8dbf42;
+  width: 100%;
+  background-color: white;
+}
+
+.main select:focus {
+  outline: none;
+}
+
+.main button {
+  font-family: Montserrat;
+  background-color: #606c38;
+  color: white;
+  border-radius: 40px;
+  padding: 1rem 2rem;
+  margin-top: 1.5rem;
+  width: 30%;
+  align-self: center;
+  border: none;
+}
+
+@media (min-width: 1800px) {
+  .main h1 {
+    font-size: 2.5rem;
+    padding-bottom: 3rem;
+  }
+  .main input,
+  .main label,
+  .main button,
+  .main select {
+    font-size: 1.7rem;
+  }
+  .main input,
+  .main select {
+    margin: 1rem 0 2.5rem;
+    padding: 1rem 2rem;
+  }
+  .main input[type="file"] {
+    padding: 0;
+  }
+}
+@media (min-width: 1441px) {
+  .main form {
+    width: 40%;
+  }
+}
+@media (max-width: 1024px) {
+  .main form {
+    width: 500px;
+  }
+}
+@media (max-width: 600px) {
+  .main form {
+    width: 400px;
+  }
+}
+@media (max-width: 500px) {
+  .main form {
+    width: 350px;
+  }
+}
+@media (max-width: 400px) {
+  .main h1 {
+    width: 80%;
+    line-height: 2.8rem;
+    margin: 0 auto;
+  }
+  .main form {
+    width: 280px;
+  }
+}

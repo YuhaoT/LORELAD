@@ -1,0 +1,130 @@
+.main {
+  padding: 3rem 0 4rem;
+  font-family: Montserrat, sans-serif;
+  background-color: #fefae0;
+  min-height: 100vh;
+}
+
+.main h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 3rem;
+  color: #283618;
+}
+
+.search_container {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.search_container div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}
+
+.search_container select {
+  margin-left: 1rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 15px;
+  border-color: #8ea934;
+  font-size: 1rem;
+}
+
+.search_container select:focus {
+  outline: none;
+}
+
+.results {
+  width: 70%;
+  margin: 3rem auto 0;
+}
+
+.results h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #283618;
+}
+
+.results .language_container {
+  display: flex;
+  box-shadow: 1px 1.5px 5px #999;
+  border-radius: 15px;
+  padding: 1rem 2rem;
+  margin-top: 1.25rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.results h3 {
+  width: 40%;
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding-right: 3rem;
+  text-overflow:ellipsis;
+}
+
+.language_details{
+  width:50%;
+  text-overflow:ellipsis;
+  overflow:hidden;
+}
+
+.language_container:hover {
+  cursor: pointer;
+}
+
+.language_container div {
+  display: flex;
+  justify-content: space-between;
+  color: #606c38;
+  font-weight: 500;
+}
+
+.language_container p {
+  padding-left: 1.5rem;
+}
+
+.add_language_cont {
+  font-family: Montserrat;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.add_language_cont a {
+  color: #606c38;
+  font-weight: 800;
+}
+
+@media (min-width: 1800px) {
+  .main h1 {
+    font-size: 2.8rem;
+  }
+  .search_container {
+    width: 1000px;
+  }
+  .search_container input,
+  .search_container select {
+    font-size: 1.6rem;
+  }
+  .add_language_cont {
+    font-size: 1.6rem;
+  }
+  .results {
+    width: 1300px;
+  }
+  .results h2 {
+    font-size: 2.2rem;
+  }
+  .results h3 {
+    font-size: 1.8rem;
+  }
+  .language_container p {
+    font-size: 1.5rem;
+  }
+}

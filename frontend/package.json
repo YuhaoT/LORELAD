@@ -1,0 +1,28 @@
+{
+  "name": "lorelad_app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.13",
+    "aws-sdk": "^2.802.0",
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "next": "^10.0.1",
+    "node_module": "0.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-download-link": "^2.3.0",
+    "react-h5-audio-player": "^3.5.0",
+    "react-router-dom": "^5.2.0",
+    "react-sound": "^1.2.0",
+    "sass": "^1.29.0"
+  }
+}

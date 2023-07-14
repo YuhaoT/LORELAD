@@ -1,0 +1,17 @@
+*.log
+
+*.pot
+.vs/
+*.pyc
+
+*/*/*/__pycache__/
+
+*/*/__pycache__/
+
+*/__pycache__/
+
+.idea
+*.DS_Store
+backend/.idea
+*.pyc
+*.pyc

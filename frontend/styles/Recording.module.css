@@ -1,0 +1,208 @@
+.main {
+  padding: 3rem 5rem 4rem;
+  font-family: Montserrat, sans-serif;
+  background-color: #fefae0;
+  min-height: 100vh;
+}
+
+.about_container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.recording_name {
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+.recording_name div {
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.recording_name h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.recording_name p {
+  font-weight: 600;
+}
+
+.recording_name svg {
+  font-size: 3rem;
+  margin-top: 0.6rem;
+}
+
+.recording_name svg:hover {
+  cursor: pointer;
+}
+
+.buttons_container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.2rem;
+}
+
+.buttons_container div {
+  display: flex;
+  align-items: center;
+}
+
+.buttons_container div button {
+  background-color: #fefae0;
+  border: 1px solid #606c38;
+  border-radius: 20px;
+  outline: none;
+  padding: 0.3rem 1.3rem;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+}
+
+.download_btn {
+  background-color: #fefae0;
+  border: 1px solid black;
+  border-radius: 25px;
+  outline: none;
+  box-shadow: 1px 1.5px 5px #999;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 2.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: Montserrat;
+}
+
+.download_btn svg {
+  margin-left: 1rem;
+}
+
+.description {
+  background-color: white;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  color: black;
+  font-weight: 500;
+  line-height: 1.8rem;
+  box-shadow: 1px 1.5px 5px #999;
+  width: 85%;
+  margin: 0 auto 1.5rem;
+}
+
+.player {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.player div {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.player div div:first-child div div div:first-child {
+  border: 4px solid black;
+}
+
+.player div div:first-child div div div:last-child {
+  background-color: black;
+}
+
+.player div div div:last-child {
+  flex: none;
+}
+
+.translations_container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.translations_container h3 {
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.translations {
+  display: flex;
+  justify-content: space-between;
+}
+
+.translations div {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 1.5rem;
+  width: 47.5%;
+}
+
+.translations h6 {
+  font-weight: 600;
+  padding-bottom: 0.75rem;
+}
+
+.translations p {
+  line-height: 1.75rem;
+}
+
+.translations_container button {
+  background-color: #8ea934;
+  padding: 1rem 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1rem;
+  margin-top: 2rem;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+.translations_container i {
+  padding-right: 0.5rem;
+}
+
+@media (min-width: 1800px) {
+  .recording_name {
+    width: 1500px;
+    margin: 0 auto;
+  }
+  .recording_name h1 {
+    font-size: 2.8rem;
+  }
+  .recording_name p {
+    font-size: 1.5rem;
+  }
+  .about_container {
+    width: 1300px;
+    margin: 0 auto;
+  }
+  .buttons_container div button {
+    font-size: 1.6rem;
+  }
+  .download_btn {
+    font-size: 1.5rem;
+  }
+  .description {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+  }
+  .translations_container {
+    width: 1300px;
+    margin: 0 auto;
+  }
+  .translations_container h3 {
+    font-size: 2.3rem;
+  }
+  .translations h6 {
+    font-size: 1.5rem;
+  }
+  .translations p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .translations_container button {
+    font-size: 1.5rem;
+  }
+}
